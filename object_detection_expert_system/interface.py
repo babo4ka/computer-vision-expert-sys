@@ -90,7 +90,7 @@ input_photo_showed = True
 
 # пользовательский интерфейс
 window = tk.Tk()
-window.geometry('1200x600')
+window.geometry('800x600')
 
 header_frame = LabelFrame(window)
 header_frame.pack()
@@ -107,9 +107,6 @@ objectsCountLabel.pack(anchor=NW)
 
 content_frame = LabelFrame(window)
 content_frame.pack()
-
-# content_frame.columnconfigure(0, weight=1)
-# content_frame.columnconfigure(1, weight=1)
 
 imageToShow = tk.Label(content_frame)
 imageToShow.pack()
